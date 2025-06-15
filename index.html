@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="login-area">
+            <h1>Welcome to the Quiz</h1>
+            <input type="text" id="username" placeholder="Enter your username">
+            <button onclick="login()">Login</button>
+        </div>
+
+        <div id="quiz-intro" class="hidden">
+            <h2>Select a Category</h2>
+            <button onclick="startQuiz('general')">General Knowledge</button>
+            <button onclick="startQuiz('science')">Science</button>
+            <button onclick="startQuiz('history')">History</button>
+        </div>
+
+        <div id="quiz-area" class="hidden">
+            <div id="question"></div>
+            <div>
+                <button class="option-btn" onclick="selectOption(0)"></button>
+                <button class="option-btn" onclick="selectOption(1)"></button>
+                <button class="option-btn" onclick="selectOption(2)"></button>
+                <button class="option-btn" onclick="selectOption(3)"></button>
+            </div>
+            <div id="progress-bar" style="width: 0%;"></div>
+            <div id="time">30</div>
+            <button id="next-btn" onclick="nextQuestion()" disabled>Next</button>
+            <div id="score">Score: 0</div>
+        </div>
+
+        <div id="quiz-end" class="hidden">
+            <h2>Quiz Over!</h2>
+            <div id="final-score"></div>
+            <button onclick="showLeaderboard()">Show Leaderboard</button>
+            <button onclick="restartQuiz()">Restart Quiz</button>
+        </div>
+
+        <div id="leaderboard-area" class="hidden">
+            <h2>Leaderboard</h2>
+            <ul id="leaderboard"></ul>
+            <button onclick="returnToCategories()">Return to Categories</button>
+        </div>
+
+        <button id="night-mode-toggle" onclick="toggleNightMode()">Night Mode</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
