@@ -17,7 +17,18 @@ A simple and interactive quiz application with dynamic questions, timer, score t
 - JavaScript (Vanilla)
 
 ## 📷 Preview
-![screenshot](preview.png)
+### 🔐 Login Page
+![Login](assets/login-page.png)
+
+### 📘 Choose Subject
+![Choose Subject](assets/choose-subject.png)
+
+### 🧠 Quiz in Progress
+![Quiz Start](assets/quiz-start.png)
+
+### 🏁 Final Score
+![Score Page](assets/score-page.png)
+
 
 ## 🧠 How to Run
 1. Clone or download the repository
