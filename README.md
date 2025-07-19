@@ -18,16 +18,16 @@ A simple and interactive quiz application with dynamic questions, timer, score t
 
 ## 📷 Preview
 ### 🔐 Login Page
-![Login](assets/login-page.png)
+![Login](login-page.png.png)
 
 ### 📘 Choose Subject
 ![Choose Subject](choose-subject.png.png)
 
 ### 🧠 Quiz in Progress
-![Quiz Start](assets/quiz-start.png)
+![Quiz Start](quiz-start.png.png)
 
 ### 🏁 Final Score
-![Score Page](assets/score-page.png)
+![Score Page](score-page.png..png)
 
 
 ## 🧠 How to Run
