@@ -21,7 +21,7 @@ A simple and interactive quiz application with dynamic questions, timer, score t
 ![Login](assets/login-page.png)
 
 ### 📘 Choose Subject
-![Choose Subject](assets/choose-subject.png)
+![Choose Subject](choose-subject.png.png)
 
 ### 🧠 Quiz in Progress
 ![Quiz Start](assets/quiz-start.png)
